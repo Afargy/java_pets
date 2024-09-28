@@ -1,0 +1,9 @@
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/repositories/CrudRepository.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/repositories/UsersRepositoryJdbcImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/config/ApplicationConfig.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/services/UsersService.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/repositories/UsersRepository.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/repositories/UsersRepositoryJdbcTemplateImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/application/Main.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/models/User.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex02/Service/src/main/java/edu/school21/service/services/UsersServiceImpl.java

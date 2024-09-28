@@ -1,0 +1,8 @@
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/models/User.java
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepository.java
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/repositories/UserSearcher.java
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/app/Program.java
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/repositories/ChatroomSearcher.java
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepositoryJdbcImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/models/Chatroom.java
+/home/babaka/wspace/java/Java_Bootcamp.Day05-1/src/ex01/Chat/src/main/java/edu/school21/chat/models/Message.java

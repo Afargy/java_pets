@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.school21.smartcalc.TempTemp">
+  <grid id="27dc6" binding="MainPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1128" height="709"/>
+    </constraints>
+    <properties>
+      <background color="-15716341"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f1de" binding="Display" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="400" height="400"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1712057"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="7ab68" binding="Keypad" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12917290"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="49f75" class="javax.swing.JButton" binding="ButtonAc">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="AC"/>
+            </properties>
+          </component>
+          <component id="90b2e" class="javax.swing.JButton" binding="Button7">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="1a643" class="javax.swing.JButton" binding="Button4">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="57275" class="javax.swing.JButton" binding="Button1">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="40a6a" class="javax.swing.JButton" binding="Button0">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="49f78" class="javax.swing.JButton" binding="ButtonLeftBracket">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="("/>
+            </properties>
+          </component>
+          <component id="ee4fd" class="javax.swing.JButton" binding="ButtonRightBracket">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value=")"/>
+            </properties>
+          </component>
+          <component id="8d8b9" class="javax.swing.JButton" binding="ButtonAdd">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="6339a" class="javax.swing.JButton" binding="ButtonMul">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="*"/>
+            </properties>
+          </component>
+          <component id="54b0a" class="javax.swing.JButton" binding="ButtonPow">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="^"/>
+            </properties>
+          </component>
+          <component id="8047e" class="javax.swing.JButton" binding="Button9">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="f5ef2" class="javax.swing.JButton" binding="Button8">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="6d131" class="javax.swing.JButton" binding="ButtonMinus">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="1efc9" class="javax.swing.JButton" binding="ButtonDiv">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="/"/>
+            </properties>
+          </component>
+          <component id="a5523" class="javax.swing.JButton" binding="ButtonMod">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="mod"/>
+            </properties>
+          </component>
+          <component id="c3296" class="javax.swing.JButton" binding="Button6">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="6b3e" class="javax.swing.JButton" binding="Button3">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="c7189" class="javax.swing.JButton" binding="ButtonEq">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="="/>
+            </properties>
+          </component>
+          <component id="5625c" class="javax.swing.JButton" binding="Button5">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="b30e1" class="javax.swing.JButton" binding="Button2">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="df8de" class="javax.swing.JButton" binding="ButtonDot">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="."/>
+            </properties>
+          </component>
+          <component id="e2f9f" class="javax.swing.JButton" binding="ButtonSin">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="sin"/>
+            </properties>
+          </component>
+          <component id="f3ee8" class="javax.swing.JButton" binding="ButtonAsin">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="asin"/>
+            </properties>
+          </component>
+          <component id="d94b3" class="javax.swing.JButton" binding="ButtonLn">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <selected value="false"/>
+              <text value="ln"/>
+            </properties>
+          </component>
+          <component id="fb1b3" class="javax.swing.JButton" binding="ButtonCos">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="cos"/>
+            </properties>
+          </component>
+          <component id="f4d6b" class="javax.swing.JButton" binding="ButtonAcos">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="acos"/>
+            </properties>
+          </component>
+          <component id="dec22" class="javax.swing.JButton" binding="ButtonLog">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="log"/>
+            </properties>
+          </component>
+          <component id="d3ebe" class="javax.swing.JButton" binding="ButtonTan">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="tan"/>
+            </properties>
+          </component>
+          <component id="c7e2d" class="javax.swing.JButton" binding="ButtonAtan">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="atan"/>
+            </properties>
+          </component>
+          <component id="fc594" class="javax.swing.JButton" binding="ButtonSqrt">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="50"/>
+                <preferred-size width="60" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13622254"/>
+              <enabled value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <multiClickThreshhold value="0"/>
+              <text value="sqrt"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d94d" binding="Graph" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="700" height="700"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1760989"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

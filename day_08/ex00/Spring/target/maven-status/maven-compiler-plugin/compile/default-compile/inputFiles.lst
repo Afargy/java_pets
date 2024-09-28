@@ -1,0 +1,10 @@
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/application/Main.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/services/renderer/Renderer.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/implementations/printer/PrinterWithDateTimeImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/services/preprocesor/PreProcessor.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/implementations/printer/PrinterWithPrefixImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/services/printer/Printer.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/implementations/preprocesor/PreProcessorToLowerImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/implementations/renderer/RendererStandardImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/implementations/renderer/RendererErrImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day08-1/src/ex00/Spring/src/main/java/edu/school21/spring/implementations/preprocesor/PreProcessorToUpperImpl.java

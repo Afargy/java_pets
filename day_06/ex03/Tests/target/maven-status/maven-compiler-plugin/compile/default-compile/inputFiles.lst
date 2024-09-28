@@ -1,0 +1,10 @@
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/repositories/UserRepository.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/repositories/ProductsRepository.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/repositories/ProductsRepositoryImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/numbers/IllegalNumberException.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/exceptions/AlreadyAuthenticatedException.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/models/Product.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/services/UsersServiceImpl.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/numbers/NumberWorker.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/exceptions/EntityNotFoundException.java
+/home/babaka/wspace/java/Java_Bootcamp.Day06-1/src/ex03/Tests/src/main/java/edu/school21/models/User.java
